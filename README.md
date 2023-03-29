@@ -1,4 +1,4 @@
-# Ki-isel-WEB-Sitesi
+# Kisisel-WEB-Sitesi
 İnternet Tabanlı Programlama Dersi Proje Ödevi
 
 
