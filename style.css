@@ -1,26 +1,30 @@
-
+body{
+    background-color: #ebebeb;
+}
 #banner{
+    
     border-radius: 10px;
     width:auto;
     height: 50px;
     margin: 20px;
     padding: 5px;
-    background-color: #D9D9D9;
+    background-color: #D7DBE4;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
     display: flex;
     align-items: center;
     justify-content: space-around;
     
 }
+div#banner div img{
+    width: 30px;
+    height: 30px;
 
-
-
+}
 .menu{
     color: black;
     display: flex;
     border: 1px;
     border-color: rgb(162, 162, 162);
-    border-style: inset;
     border-radius: 5px;
     width: 135px;
     height: 35px;
@@ -29,10 +33,68 @@
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
+    font-size: 17px;
 }
 
+#content{
+    background-image: url("bgr.jpg");
+    color: black;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    text-shadow: 3px 3px rgb(159, 159, 159) ;
+    letter-spacing: 7px;
+    font-size: 100px;
+    border-radius: 5px;
+    width:auto;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 1200px ;
+}
+
+
+
+#footer{
+
+    display: flex;
+    border-radius: 10px;
+    width:auto;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9c8;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    align-items: center;
+    justify-content:space-evenly;
+    
+
+}
+
+
+div#footer a img{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+div#footer img{
+    
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 #baslik{
-    font-size:25px;
+    display: flex;
+    font-size:20px;
     letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
