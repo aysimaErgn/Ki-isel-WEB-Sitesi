@@ -20,45 +20,6 @@ div#banner div img{
     height: 30px;
 
 }
-div.sertifikalar{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div.sertifikalar div img{
-
-    width: 150px;
-    height: 100px;
-
-}
-
-#content{
-    border-radius: 5px;
-    width:auto;
-    margin: 20px;
-    padding: 5px;
-    background-color: #f9f9f9;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 1300px ;
-    color: black;
-}
-
-div#content p#baslik{
-    padding: 0;
-    color:#abaeb5;
-    text-align: center;
-    align-self: center;
-    font-size: 40px;
-}
-
-div#content p{
-    font-size:20px;
-    padding: 0px 70px 0px 70px;
-}
-
 .menu{
     color: black;
     display: flex;
@@ -74,6 +35,87 @@ div#content p{
     letter-spacing: 1px;
     font-size: 17px;
 }
+
+#container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+
+}
+
+#content_haberler{
+    
+    color: black;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    text-shadow: 3px 3px #D7DBE4 ;
+    letter-spacing: 3px;
+    font-size: 100px;
+    border-radius: 5px;
+    width:750px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+   
+    align-items: center;
+    justify-content: center;
+    
+    height: 800px ;
+}
+
+#content_duyurular{
+
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px #D7DBE4 ;
+    font-size: 100px;
+    border-radius: 5px;
+    width: 750px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    
+    align-items: center;
+    justify-content: center;
+   
+    height: 800px ;
+
+}
+#content_duyurular p{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#content_haberler p{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.güncel{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    align-items: center;
+    margin: 20px;
+    float: left;
+
+    
+}
+
+
 
 #footer{
 
@@ -133,3 +175,7 @@ a:visited{
 .menu:hover{
     background-color: rgba(207, 207, 207, 0.5);
 }
+
+
+
+
