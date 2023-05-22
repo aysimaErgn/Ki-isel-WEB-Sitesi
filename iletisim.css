@@ -1,0 +1,145 @@
+body{
+    background-color: #ebebeb;
+}
+#banner{
+    
+    border-radius: 10px;
+    width:auto;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #D7DBE4;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+div#banner div img{
+    width: 30px;
+    height: 30px;
+
+}
+.menu{
+    color: black;
+    display: flex;
+    border: 1px;
+    border-color: rgb(162, 162, 162);
+    border-radius: 5px;
+    width: 135px;
+    height: 35px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+div#content div#bilgiler{
+    border-width: 1px;
+    border-style:dashed;
+    box-shadow: 0px 0px 4px #6c6c6c;
+    border-color: rgba(165, 165, 165, 0.479);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 550px;
+    height: 600px;
+    align-self: flex-start;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    
+}
+div#content div#bilgiler p#baslik{
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-left: 160px;
+}
+div#content div#bilgiler p{
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+#content{
+    
+    color: black;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 100px;
+    border-radius: 5px;
+    width:auto;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    display: flex;
+    height: 1200px ;
+}
+
+
+
+#footer{
+
+    display: flex;
+    border-radius: 10px;
+    width:auto;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #f9f9f9c8;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
+    align-items: center;
+    justify-content:space-evenly;
+    
+
+}
+
+
+div#footer a img{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+div#footer img{
+    
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#baslik{
+    display: flex;
+    font-size:20px;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ #hakkimda{
+
+    margin-left: 800PX;
+    text-decoration: none;
+
+}
+div div a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.menu:hover{
+    background-color: rgba(207, 207, 207, 0.5);
+}
+
+
+
+
