@@ -61,6 +61,72 @@ div#content div#bilgiler p{
     color: #000000;
     letter-spacing: 1px;
 }
+
+div#content div#form p#baslik{
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-left: 95px;
+    align-self: center;
+}
+
+div#content div#form{
+    border-width: 1px;
+    border-style:dashed;
+    box-shadow: 0px 0px 4px #6c6c6c;
+    border-color: rgba(165, 165, 165, 0.479);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 750px;
+    height: 600px;
+    align-self: flex-start;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+
+}
+div#content div#form input{
+    margin: 10px;
+    
+}
+div#content div#form label{
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+div#content div#form p.aciklama{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+input[type=submit], input[type=reset] {
+    background-color:#D7DBE4 ;
+    border: none;
+    color: rgb(63, 63, 63);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  input[type=submit]:hover{
+    background-color: #6c6c6c;
+    color: #000000;
+  }
+  input[type=reset]:hover{
+    background-color: #6c6c6c;
+    color: #000000;
+  }
+
+  input[type=email], input[type=text],input[type=date]{
+    background-color: #D7DBE4;
+    border-style: dashed;
+    color: #000000;
+    border-color:#b5b5b5;
+    border-radius: 4px;
+  }
+
 #content{
     
     color: black;
@@ -76,7 +142,7 @@ div#content div#bilgiler p{
     background-color: #f9f9f9;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
     display: flex;
-    height: 1200px ;
+    height: 725px ;
 }
 
 
