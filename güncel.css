@@ -40,24 +40,18 @@ div#banner div img{
 
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-
-
-
 }
 
 #content_haberler{
     
     color: black;
-    background-size:cover;
-    background-position: center;
     text-align: center;
     text-shadow: 3px 3px #D7DBE4 ;
     letter-spacing: 3px;
     font-size: 100px;
     border-radius: 5px;
-    width:750px;
-    margin: 20px;
+    
+    margin: 10px;
     padding: 5px;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
@@ -65,7 +59,8 @@ div#banner div img{
     align-items: center;
     justify-content: center;
     
-    height: 800px ;
+    width:750px;
+    height: 1550px ;
 }
 
 #content_duyurular{
@@ -76,16 +71,15 @@ div#banner div img{
     text-shadow: 3px 3px #D7DBE4 ;
     font-size: 100px;
     border-radius: 5px;
-    width: 750px;
-    margin: 20px;
+    
+    margin: 10px;
     padding: 5px;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
     
-    align-items: center;
-    justify-content: center;
-   
-    height: 800px ;
+    
+    width: 750px;
+    height: 1500px ;
 
 }
 #content_duyurular p{
@@ -103,14 +97,36 @@ div#banner div img{
     justify-content: center;
     
 }
+div#container div.güncel img{
+    width: 400px;
+    height: 250px;
+    
+}
+#content_haberler .güncel {
+
+    color: black;
+    font-size: 20px;
+    text-shadow: none;
+    letter-spacing: 1px;
+    text-justify:auto;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+
+}
 
 .güncel{
-    width: 300px;
+    width: 670px;
     height: 300px;
     border: 2px solid;
     align-items: center;
     margin: 20px;
     float: left;
+    border-style:dashed;
+    box-shadow: 0px 0px 4px #6c6c6c;
+    border-color: rgba(165, 165, 165, 0.479);
+    border-radius: 10px;
+    border-width: 2px;
 
     
 }
