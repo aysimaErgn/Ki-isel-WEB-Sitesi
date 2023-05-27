@@ -79,7 +79,7 @@ div#banner div img{
     
     
     width: 750px;
-    height: 1500px ;
+    height: 1550px ;
 
 }
 #content_duyurular p{
@@ -113,6 +113,35 @@ div#container div.güncel img{
     overflow: auto;
     padding: 10px;
 
+}
+
+#content_duyurular .güncel {
+
+    color: black;
+    font-size: 20px;
+    text-shadow: none;
+    letter-spacing: 1px;
+    text-justify:auto;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+#content_duyurular .güncel a{
+    font-size: 20px;
+    background-color:#D7DBE4 ;
+    border: none;
+    color: rgb(63, 63, 63);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#content_duyurular .güncel a:hover{
+    background-color: #6c6c6c;
+    color: #000000;
 }
 
 .güncel{
