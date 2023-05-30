@@ -22,23 +22,11 @@ div#banner div img{
     float: left;
 
 }
-div.sertifikalar{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-div.sertifikalar div img{
 
-    width: 150px;
-    height: 100px;
-
-}
-
-body img{
-    width: 250px;
-    height: 325px;
-    margin-left:70px;
-    
+div#header img{
+    margin-left: 70px;
+    border-radius: 7px;
 }
 
 #content{
@@ -108,14 +96,13 @@ div#content p{
     border-radius: 10px;
     width:auto;
     height: 50px;
-    margin: 20px;
+    margin-top: 50px;
     padding: 5px;
     background-color: #f9f9f9c8;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.533);
     align-items: center;
     justify-content:space-evenly;
-    
-
+    position: relative;
 }
 
 
@@ -161,3 +148,104 @@ a:visited{
 .menu:hover{
     background-color: rgba(207, 207, 207, 0.5);
 }
+
+/* ****************************************** */
+        /*carousel start*/
+        .sertifikalar {
+            max-width: 400px;
+            margin: auto;
+            position: relative;
+        }
+        
+        .sertifikalar .mySlides {
+            display: none;
+        }
+        
+        .sertifikalar .mySlides img {
+            width: 100%;
+        }
+        
+        
+        .sertifikalar .mySlides .number-text {
+            color: #767676;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0px;
+        }
+        
+        .sertifikalar .fade-In {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        
+        .sertifikalar .prev-slide,
+        .sertifikalar .next-slide {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: #9A9ABA;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 0px 3px 3px 0px;
+            transition: 0.6s ease;
+        }
+        
+        .sertifikalar .prev-slide:hover,
+        .sertifikalar .next-slide:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-decoration: none;
+        }
+        
+        .sertifikalar .next-slide {
+            right: 0px;
+            border-radius: 3px 0px 0px 3px;
+        }
+        
+        .dots{
+            text-align: center;
+        }
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0px 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        
+        .dot:hover {
+            background-color: #717171;
+        }
+        
+        .active {
+            background-color: #717171;
+        }
+        
+        @keyframes fade {
+            from {
+                /*IE8*/
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+                /*IE 5-7*/
+                filter: alpha(opacity=40);
+                /*Modern Browsers*/
+                opacity: 0.4;
+            }
+        
+            to {
+                /*IE8*/
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                /*IE 5-7*/
+                filter: alpha(opacity=100);
+                /*Modern Browsers*/
+                opacity: 1;
+            }
+        }
+        /*carousel end*/
+        /* ****************************************** */
