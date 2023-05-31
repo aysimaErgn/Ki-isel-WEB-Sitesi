@@ -54,7 +54,10 @@ div#banner div img{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 1200px ;
+    height: 775px ;
+    -webkit-background-size: 100% 100%;
+   
+    
 }
 
 

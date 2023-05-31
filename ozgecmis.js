@@ -47,4 +47,10 @@ $(document).ready(function() {
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
     }
+
+    $('.yetenekcubugu').each(function(){
+        $(this).find('.yetenekcubugu-bar').animate({
+            width: $(this).attr('data-percent')
+        }, 6000);
+    });
     });
