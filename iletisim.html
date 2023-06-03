@@ -36,7 +36,7 @@
         <div id="form">
 
             <p id="baslik">BÜLTENDEN HABERDAR OLMAK İÇİN</p>
-        <form>
+            
             <label for="name">Name:</label><br>
             <input type="text" id="name"><br>
 
@@ -57,11 +57,11 @@
             <input type="radio" name="gender" value="female">
             Diğer
             <input type="radio" name="gender" value="other"><br>
-           
-            <input type="submit" value="Kaydol">
+            <input type="submit" value="Kaydol" onclick="mesaj()">
             <input type="reset" value="Sıfırla">
-        </form>
+        
             <br>
+            <div id="mesajDiv"><p>BAŞARIYLA KAYIT OLDUNUZ!</p></div>
             <p class="aciklama">Düzenli olarak haftalık teknoloji bülteninin yer aldığı bir dosya posta kutunuzda olacak.</p>
             <p class="aciklama">Güncel gelişmelerden her zaman kolayca haberdar olacaksınız.</p>
         
@@ -78,6 +78,6 @@
         <pre> Tüm Hakları Saklıdır 2023 <img src="copyright.png" alt="copyright"> </pre>
     </div>
    
-    
+    <script src="iletisim.js"></script>
 </body>
 </html>
