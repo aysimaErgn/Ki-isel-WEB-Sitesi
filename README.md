@@ -6,7 +6,7 @@ Ad-Soyad: Aysima Ergen
 Okul/Bölüm/Sınıf: Bandırma Onyedi Eylül Üniversitesi / Bilgisayar Mühendisliği / 2.Sınıf
 
 İlk olarak sayfalarda kullacağım menü ve footer kısmını tekrar tekrar yazmaya uğraşmamak için bir şablon hazırladım. Bu şablonu diğer sayfalara ekleyerek taslak
-oluşturdum. Burada yalnızca HTML ve CSS kullandım.
+oluşturdum. Burada yalnızca HTML ve CSS kullandım. Footer kısmında sosyal medya hesaplarımı ve mail adresimi simgelere link şeklinde ekledim.
 
 Bu taslakların konularına göre içerik kısımlarını kendi içlerinde CSS ile stillendirdim.
 
@@ -17,6 +17,20 @@ gidecek şekilde özellik verdim. Geri kalan tasarımı yine HTML ve CSS ile yap
 
 content olarak id verdiğim, içeriğin yer alacağı div kutusunun arkaplanını resim yaptım ve giriş yazısını geçiş şeklinde yapmayı tercih ettim. Bu geçiş şeklini 
 HTML'de marquee etiketi ve scrollamount parametreleriyle sağladım. 
+
+
+Hakkımda kısmına geldiğimizde yine şablonu kullanarak bir taslak oluşturduktan sonra content divinin içinde bir dive başlık ve fotoğraf koyacak şekilde düzenleme
+yaptım. Altında normal p etiketleriyle kendimden bahsettikten sonra bir yetenek barı ekledim. Bu barda javascripti kullandım. Burada internette bulduğum örneklerden
+faydalandım ve kendime uyarladım. Bu yetenek barlarında yine html ve css i de kullandım.
+Ardından bir sertifika slaytı oluşturdum. Bu slayt hangi tarafa tıklarsan o yönde hareket ediyor. Yine burada da Javascript jquery kütüphanesinden faydalandım.
+HTML ve CSS ile stillendirdikten sonra son halini oluşturdum. 
+
+Güncel kısmına geldiğimizde iletişim kısmındaki haber bülteninde neler yer alacağına dair örnek bir şeyler koymak istedim. Güncel haberler ve duyurular olmak
+üzere iki dive ayırdım ve bu divlere yine 4er tane div ekleyecek haber ve duyurular ekledim. Burada estetik açısından çerçeveleri solid değil dashed olarak 
+tercih ettim.
+Burada HTML ve CSS dışında bir şey kullanmadım.
+
+
 
 
 
