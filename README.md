@@ -30,13 +30,19 @@ Güncel kısmına geldiğimizde iletişim kısmındaki haber bülteninde neler y
 tercih ettim.
 Burada HTML ve CSS dışında bir şey kullanmadım. Bu kısmın kodlarına güncel.css, güncel.html dosyalarından ulaşabilirsiniz.
 
-İletişim kısmında iletişim bilgileri için bir div üyelik kısmı için bir div oluşturdum. Görüntü olarak biraz daah güncel sekmesine benziyor. Üyelik kısmı haftalık
+İletişim kısmında iletişim bilgileri için bir div üyelik kısmı için bir div oluşturdum. Görüntü olarak biraz daha güncel sekmesine benziyor. Üyelik kısmı haftalık
 teknoloji bültenine üye olmak için olacak. Bu kısımda kaydol butonuna basıldığında javascript timer larını kullandım ve basıldığında bir gif özelliği 
 gelecek şekilde kodlar ekledim. 3 saniye sonra bu gif kendiliğinden kapanıyor. Geri kalan kısımları yine HTML ve CSS den oluşuyor. Bu kısmın kodlarına
 iletisim.css, iletisim.html ve iletisim.js dosyalarından ulaşabilirsiniz.
 
 
+PHP'yi de projemde kullanmak için en son sağ alt köşeye sabitli bir mail butonu yapmak istedim. Bunu anasayfa, hakkımda, güncel ve iletişim kısımlarının her
+birine tek tek koydum. Aslında footer kısmında da vardı fakat PHP ile de yapmak istedim. Bu butona basıldığında benim mail hesabıma mail atılıyor.
 
+
+Umarım beğenirsiniz.
+
+Teşekkürler,
 
 
 
